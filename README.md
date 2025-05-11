@@ -28,13 +28,13 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/CoderAlchemy24/frme-social-links.git](https://github.com/CoderAlchemy24/frme-social-links.git)
+- Live Site URL: [https://aquamarine-pudding-539cb0.netlify.app/](https://aquamarine-pudding-539cb0.netlify.app/)
 
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [https://github.com/CoderAlchemy24/frme-social-links.git]
+
 

@@ -1,0 +1,129 @@
+:root{
+
+  /* Colors */  
+    --color-green: hsl(75, 74%, 71%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-grey-700: hsl(0, 0%, 20%);
+    --color-grey-800: hsl(0, 0%, 12%);
+    --color-grey-900: hsl(0, 0%, 8%);
+
+  /* Font */
+    --font-family: 'Inter', sans-serif;
+    /*  Weight: 400, 600, 700*/
+
+    /* Font Sizes */
+    --font-size-p: 14px; /* 14px */
+
+}   
+
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    height: 92vh;
+   
+    background-color: var(--color-grey-900);
+    font-family: var(--font-family);
+    margin:30px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: var(--color-grey-800);
+    display: block;
+    padding: 8px 18px 18px;;
+
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 375px;
+    height:auto;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding:25px;
+}
+
+.profile-info img{ 
+    width: 75px;
+    height: auto;
+    border-radius: 50%;
+    padding-bottom:15px;
+}
+
+.profile-info h1{
+    font-size: 24px;
+    color: var(--color-white);
+}
+.profile-info h2{
+    color: var(--color-green);
+    font-size: 14px;
+    
+}
+
+.profile-info p{
+    font-size: var(--font-size-p);
+    color: var(--color-white);
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width:100%;
+    padding: 8px;
+}
+.social-links div{
+   
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-color: var(--color-grey-700);
+    width: 100%;
+}
+
+.social-links div:hover{
+    background-color: var(--color-green);
+}
+
+.social-links div a{
+    color: var(--color-white);
+    font-size: var(--font-size-p);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    width:100%;
+   
+}
+
+.social-links div a:hover{
+    color: var(--color-grey-900);
+}
+
+.social-links div a:active{
+    color: orange;
+}
+
+@media screen and (max-width: 375px) {
+    .container{
+        width: 375px;
+        height: auto;
+        
+        
+}}
